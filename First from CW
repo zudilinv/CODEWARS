@@ -1,0 +1,27 @@
+function numberToString(num) {
+    let str = String(num)
+    
+    return (str);
+  }
+
+  function paperwork(n, m) {
+    if (n >= 0 && m >= 0) {
+      return (n * m);
+  }
+    return 0;
+   
+  }
+
+  // Строка задом наперед
+  function solution(str){
+    return str.split("").reverse().join("");
+   }
+   // Сделать все буквы заглавными
+   function makeUpperCase(str) {
+    return( str.toUpperCase())
+  }
+//   Преобразовать строку в числа
+const stringToNumber = function(str){
+ 
+    return (Number(str));
+  }
