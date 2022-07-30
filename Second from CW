@@ -1,0 +1,7 @@
+//   Если квадрат вернуть площадь, прямоугольник - периметр
+const areaOrPerimeter = function(l , w) {
+    if (l !== w) {
+      return (l*2) + (w*2)
+    }
+      return l*w
+    };
