@@ -1,0 +1,15 @@
+// Заменить true на "Yes"
+      function boolToWord( bool ){
+        if (bool == true) {
+          return 'Yes'
+        }
+        return 'No'
+      }
+        
+        
+        
+      // Пример [1, 2, 3] --> [2, 4, 6]
+      function maps(x){
+        let double = x.map( currentValue => currentValue * 2 )
+        return double
+        }
