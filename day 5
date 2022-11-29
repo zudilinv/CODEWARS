@@ -20,3 +20,9 @@ function repeatStr (n, s) {
   return rep;
 }
 
+//////////////////////////
+//Удаление пробелов и возврат строки
+function noSpace(x){
+return x.split(' ').join('');
+}
+
