@@ -1,3 +1,4 @@
+//Возвращает Even если четные, Odd нечетные
 function evenOrOdd(number) {
  if (number % 2 === 0) {
    return "Even";
@@ -6,9 +7,16 @@ function evenOrOdd(number) {
 }
 
 ///////////////////////////
-
+//Удаление первого и последнего символа
 function removeChar(str){
  let remove = str.slice(1,-1);
   return remove;
+}
+
+///////////////////////////
+//Повтор S, N количество раз
+function repeatStr (n, s) {
+  let rep = s.repeat(n);
+  return rep;
 }
 
