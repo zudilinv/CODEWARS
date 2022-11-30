@@ -17,3 +17,29 @@ function lovefunc(flower1, flower2){
   return false;
 }
 /////////////////////////////
+//Boolean to string
+function booleanToString(b){
+  return b.toString();
+}
+/////////////////////////////
+//Формула определения соства тела
+function bmi(weight, height) {
+  const body = weight / (height*height);
+  if(body <= 18.5){
+    return "Underweight";
+  }else if(body <= 25.0){
+    return "Normal";
+  }else if(body <= 30.0){
+    return "Overweight";
+  }else if(body > 30){
+    return "Obese";
+  }
+  return "";
+}
+/////////////////////////
+//Приведение к верхнему регистру
+function makeUpperCase(str) {
+  return str.toLocaleUpperCase();
+}
+//////////////////////////
+
