@@ -4,3 +4,8 @@ const stringToNumber = function(str){
   return null;
 }
 /////////////////////////////
+//Вставить значение  в строку
+function greet(name){
+  return `Hello, ${name} how are you doing today?`; 
+}
+/////////////////////////////
