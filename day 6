@@ -9,3 +9,11 @@ function greet(name){
   return `Hello, ${name} how are you doing today?`; 
 }
 /////////////////////////////
+//Если сумма нечетное число, то true
+function lovefunc(flower1, flower2){
+  if ((flower1 + flower2) % 2 !== 0) {
+    return true;
+  }
+  return false;
+}
+/////////////////////////////
