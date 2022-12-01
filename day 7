@@ -2,4 +2,29 @@
 function arrayPlusArray(arr1, arr2) {
   return arr1.reduce((acc, curr) => acc + curr) + arr2.reduce((acc, curr) => acc + curr); 
 }
+/////////////////////////
+//Камень, ножницы, бумага
+const rps = (p1, p2) => {
+  if (p1 === 'rock'&& p2 === 'scissors'){
+    return "Player 1 won!";
+  }else if (p1 === 'paper'&& p2 === 'rock'){
+    return "Player 1 won!";
+  }else if (p1 === 'scissors'&& p2 === 'paper'){
+    return "Player 1 won!";
+  }else if (p1 === p2){
+    return "Draw!";
+  }else{
+    return "Player 2 won!"
+  }
+};
+//////////////////////////
+//Если квадрат вернуть площадь, прямоугольник - периметр
+const areaOrPerimeter = function(l , w) {
+  if (l === w) {
+    return l*w;
+  }else {
+    return l*2 + w*2;
+  }
+};
+//////////////////////////
 //
