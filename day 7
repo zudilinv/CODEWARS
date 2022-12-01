@@ -1,0 +1,5 @@
+//Сложение массивов
+function arrayPlusArray(arr1, arr2) {
+  return arr1.reduce((acc, currv) => acc + currv) + arr2.reduce((acc, currv) => acc + currv); 
+}
+//
