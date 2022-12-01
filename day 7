@@ -27,4 +27,14 @@ const areaOrPerimeter = function(l , w) {
   }
 };
 //////////////////////////
+//Если первая буква R или r, то играетна банжо
+function areYouPlayingBanjo(name) {
+  if (name.startsWith('R')) {
+    return `${name} plays banjo`
+  }else if (name.startsWith('r')) {
+     return `${name} plays banjo`
+  }
+  return `${name} does not play banjo`;
+}
+///////////////////////////
 //
