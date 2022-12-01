@@ -37,4 +37,21 @@ function areYouPlayingBanjo(name) {
   return `${name} does not play banjo`;
 }
 ///////////////////////////
+//Найти третий угол треугольника
+function otherAngle(a, b) {
+  return 180 - (a + b);
+}
+///////////////////////////
+//Светофор
+function updateLight(current) {
+ if (current === 'green') {
+   return 'yellow';
+ }else if (current === 'yellow') {
+   return 'red';
+ }else if (current === 'red') {
+   return 'green';
+ }
+return;
+}
+/////////////////////////
 //
