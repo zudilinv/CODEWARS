@@ -1,0 +1,9 @@
+//Содержит массив элемент?
+function include(arr, item){
+  if (arr.includes(item)) {
+    return true;
+  }
+  return false;
+}
+///////////////////////////
+//
