@@ -6,4 +6,9 @@ function include(arr, item){
   return false;
 }
 ///////////////////////////
+//Развернуть строку словами наоборот
+function reverse(string){
+return string.split(' ').reverse('').join(' ');
+}
+///////////////////////////
 //
