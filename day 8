@@ -11,4 +11,18 @@ function reverse(string){
 return string.split(' ').reverse('').join(' ');
 }
 ///////////////////////////
+//XOR - не понятно, но оч интересно
+function xor(a, b) {
+if (a === true &&  b === true) {
+  return false;
+}if (a === false &&  b === false) {
+  return false;
+}if (a === false &&  b === true) {
+  return true;
+}if (a === true &&  b === false) {
+  return true; 
+}
+  return;
+)
+/////////////////////////////////
 //
