@@ -25,4 +25,11 @@ if (a === true &&  b === true) {
   return;
 )
 /////////////////////////////////
+//Возвращает общую площадь поверхности и объем коробки в виде массива
+function getSize(width, height, depth){
+  const area = ((2*width*height) + (2*depth*height) +(2*width*depth));
+  const vol = width * height * depth;
+  return [area, vol];
+}
+/////////////////////////////////
 //
