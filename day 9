@@ -5,4 +5,12 @@ function usdcny(usd) {
  return `${curs.toFixed(2)} Chinese Yuan`;
 }
 /////////////////////////////////
-//
+//Если это куб - true
+var cubeChecker = function(volume, side){
+  if (side <= 0) {
+    return false;
+  }else if (volume === side ** 3) {
+    return true;
+  }
+  return false;
+};
