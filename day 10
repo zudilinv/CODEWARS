@@ -8,7 +8,7 @@ function doubleInteger(i) {
   return i * 2;
 }
 ////////////////////////
-//Умножение этих всех значений в массиве по порядку
+//Умножение всех значений в массиве по порядку
 function grow(x){
   const xReс = x.reduce((acc, rec) => acc * rec);
  return xReс;
