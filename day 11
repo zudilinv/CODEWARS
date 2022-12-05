@@ -3,4 +3,17 @@ function square(x) {
   return x * x;
 }
 ////////////////////
+//Работа и Отпуск
+function setAlarm(employed, vacation){
+if (employed === true && vacation === false) {
+  return true;
+}
+  return false;
+}
+////////////////////
+//Реверс
+function reverseList(list) {
+return list.reverse();
+}
+////////////////////
 //
