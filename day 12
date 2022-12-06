@@ -3,16 +3,25 @@ function sumMix(x){
  const xSum = x.reduce((acc, rec) => +acc + +rec);
   return +xSum;
 }
-///////////////////////////
+/////////////////////////////
 //Замена 'T' на 'U'
 function DNAtoRNA(dna) {
     return dna.replace(/T/gi, 'U');
 }
-//////////////////////////
+/////////////////////////////
 //Дано число n, создать массив от1 до n
 function monkeyCount(n) {
 const arr = Array.from({length: n}, (_, index) => index + 1);
   return arr;
+}
+///////     //        ///////
+//ТО ЖЕ через цикл
+function monkeyCount(n) {
+var arr = [];
+for(i=1;i<=n;i++){
+ arr.push(i);
+}
+return arr;
 }
 ////////////////////////////
 //
