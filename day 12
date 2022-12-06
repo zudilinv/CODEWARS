@@ -1,0 +1,7 @@
+//Сумма значений массива, вернуть число
+function sumMix(x){
+ const xSum = x.reduce((acc, rec) => +acc + +rec);
+  return +xSum;
+}
+///////////////////////////
+//
