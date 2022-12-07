@@ -3,4 +3,26 @@ function opposite(number) {
    return -number;
 }
 ///////////////////////////
+//Развернуть строку задом-наперед
+function solution(str){
+  return str.split('').reverse().join('');
+}
+///////////////////////////
+//Удалить первый и последний символ(но мщжно так:return str.slice(1, -1);)))
+function removeChar(str){
+    let rem = str.split('');
+    rem.pop();
+    rem.shift();
+    rem.join(' ');
+    let string = rem.join('');
+    return string;
+};
+/////////////////////////////
+//Удалить пробелы
+function noSpace(x){
+ let arr = x.split(' ');
+    let numArr = arr.join('');
+    return numArr;
+}
+/////////////////////////////
 //
