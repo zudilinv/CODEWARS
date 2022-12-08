@@ -1,0 +1,9 @@
+//2 пули на 1 дракона)
+function hero(bullets, dragons){
+ if (bullets >= dragons*2) {
+   return true;
+ }
+  return false
+}
+////////////////////////////
+//
