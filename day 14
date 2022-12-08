@@ -6,4 +6,25 @@ function hero(bullets, dragons){
   return false
 }
 ////////////////////////////
+//Сравнение вашего среднего балла и всего класса
+//ИЛИ (return yourPoints > classPoints.reduce((a, b) => a + b, 0) / classPoints.length;) 
+function betterThanAverage(classPoints, yourPoints) {
+ const sumOfNumbers = classPoints.reduce((acc, number) => acc + number);
+ const numbers = classPoints.length;
+  if (yourPoints > (sumOfNumbers / numbers)) {
+      return true;
+      }
+  return false;
+}
+//////////////////////////////
+//Объединение слов в предложение
+function smash (words) {
+   return words.join(' ');
+};
+///////////////////////////////
+//Предложение в массив слов ИЛИ(const stringToArray = string => string.split(' ');)
+function stringToArray(string){
+return string.split(' ');
+}
+//////////////////////////////
 //
