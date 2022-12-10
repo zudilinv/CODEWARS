@@ -1,0 +1,10 @@
+//вывести цену без НДС
+function excludingVatPrice(price){
+  if (price == null) {
+    return -1;
+  }
+  let x = (price - price * 15 / 115).toFixed(2);
+  return Number(x);
+}
+///////////////////////////////////////
+//
