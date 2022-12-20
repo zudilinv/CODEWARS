@@ -1,0 +1,13 @@
+//Вывести сумму чисел кроме отрицательных
+function positiveSum(arr) {
+let res = 0;
+for (let i of arr) {
+        if (i < 0){
+            i = 0;
+        }
+  res += i;
+}
+   return res;
+}
+/////////////////////////////////
+//
