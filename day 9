@@ -1,5 +1,5 @@
 //////////////////////////////////
-//Вернуть кус йены с сотыми(1.00)
+//Вернуть курс йены с сотыми(1.00)
 function usdcny(usd) {
  const curs = usd * 6.75
  return `${curs.toFixed(2)} Chinese Yuan`;
