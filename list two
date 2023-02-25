@@ -24,4 +24,25 @@ for (let subArr of arr) {
     }
 }
 /////////////////////////////////////
+// Считаем овечек
+const countSheep = function (num){
+    let sheep = 0
+    if(num === 0){
+        return "";
+    }else {
+        for (let i = 1; i <= num; i++) {
+           sheep = sheep + i + " sheep..."
+        }
+        return sheep
+    }
+} //console.log(countSheep(3))  //  1 sheep...2 sheep...3 sheep...
+////////////////////////////////////////////
+//Раворот строки 
+function reverseWords(str){
+
+    return str.split(" ").reverse().join(" ");
+}
+console.log(reverseWords("yoda doesn't speak like this")) // this like speak doesn't yoda
+// Если не поставить пробел split("") развенёт и слова // s i h t   e k i l   k a e p s   t ' n s e o d   a d o y
+//////////////////////////////////////////////
 //
